@@ -20,6 +20,7 @@ function App() {
     setAmount(0);
     setRate(0);
     setDiscount(0);
+    setNewprice(0);
   };
   
   

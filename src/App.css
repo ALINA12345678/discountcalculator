@@ -1,0 +1,50 @@
+.App{
+  background-color: rgba(228, 242, 243, 0.192);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color:rgb(197, 216, 239) ;
+  height: 400px;
+  width: 500px;
+  padding: 50px;
+  border-radius: 10%;
+  box-shadow:0 4px 6px white ;
+  
+}
+.header{
+  text-align: center;
+}
+.header h2{
+  color: rgb(73, 43, 226);
+  text-decoration: dotted;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.result-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.col {
+  text-align: center;
+}
+.final h2 {
+  color: green;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
